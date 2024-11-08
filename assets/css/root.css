@@ -1,0 +1,58 @@
+:root {
+    /* Variables varias */
+    --borde: 10px;
+    --button-size: 13px;
+
+    /* Colores principales */
+    --color-basica: #F0E730;
+    --color-media: #39A748;
+    --color-general: #374DA0;
+    --color-negro: #1A1A1A;
+    --color-gris: #EAEAEA;
+    --color-blanco: #FFFFFF;
+
+    /* Colores para Deuteranopia */
+    --color-amarillo-deut: #FFE541;
+    --color-verde-deut: #9C8F50;
+    --color-azul-deut: #004E9D;
+
+    /* Colores para Protanopia */
+    --color-amarillo-prot: #FBDE00;
+    --color-verde-prot: #AA983E;
+    --color-azul-prot: #1F58A2;
+
+    /* Colores para Tritanopia */
+    --color-amarillo-trit: #FFD6C6;
+    --color-verde-trit: #1BA392;
+    --color-azul-trit: #03606E;
+
+    /* Tipografía Desktop */
+    --font-h1: 44px;
+    --font-h2: 36px;
+    --font-h3: 30px;
+    --font-h4: 18px;
+    --font-h5: 16px;
+    --font-parrafo: 16px;
+    --font-descripcion: 14px;
+    --font-boton: 14px;
+
+    /* Tipografía Tablet */
+    --font-h1-tablet: 36px;
+    --font-h2-tablet: 30px;
+    --font-h3-tablet: 26px;
+    --font-h4-tablet: 16px;
+    --font-h5-tablet: 14px;
+    --font-parrafo-tablet: 14px;
+    --font-descripcion-tablet: 12px;
+    --font-boton-tablet: 14px;
+
+    /* Tipografía Mobile */
+    --font-h1-mobile: 30px;
+    --font-h2-mobile: 24px;
+    --font-h3-mobile: 20px;
+    --font-h4-mobile: 14px;
+    --font-h5-mobile: 12px;
+    --font-parrafo-mobile: 14px;
+    --font-descripcion-mobile: 12px;
+    --font-boton-mobile: 12px;
+}

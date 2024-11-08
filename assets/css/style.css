@@ -1,0 +1,304 @@
+/* Tipografía en Desktop */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-h1);
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-h2);
+    font-weight: 700;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-h3);
+    font-weight: 700;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-h4);
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-h5);
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: var(--font-parrafo);
+    font-weight: 400;
+}
+
+.descripcion {
+    font-family: 'Arial', sans-serif;
+    font-size: var(--font-descripcion);
+    font-weight: 400;
+}
+
+.boton {
+    font-family: 'Montserrat', sans-serif;
+    font-size: var(--font-boton);
+    font-weight: 700;
+}
+
+/* Tipografía en Desktop FIN*/
+
+/* Tipografía en Tablet */
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: var(--font-h1-tablet);
+    }
+
+    h2 {
+        font-size: var(--font-h2-tablet);
+    }
+
+    h3 {
+        font-size: var(--font-h3-tablet);
+    }
+
+    h4 {
+        font-size: var(--font-h4-tablet);
+    }
+
+    h5 {
+        font-size: var(--font-h5-tablet);
+    }
+
+    p {
+        font-size: var(--font-parrafo-tablet);
+    }
+
+    .descripcion {
+        font-size: var(--font-descripcion-tablet);
+    }
+
+    .boton {
+        font-size: var(--font-boton-tablet);
+    }
+}
+
+/* Tipografía en Tablet FIN */
+
+/* Tipografía en Mobile */
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: var(--font-h1-mobile);
+    }
+
+    h2 {
+        font-size: var(--font-h2-mobile);
+    }
+
+    h3 {
+        font-size: var(--font-h3-mobile);
+    }
+
+    h4 {
+        font-size: var(--font-h4-mobile);
+    }
+
+    h5 {
+        font-size: var(--font-h5-mobile);
+    }
+
+    p {
+        font-size: var(--font-parrafo-mobile);
+    }
+
+    .descripcion {
+        font-size: var(--font-descripcion-mobile);
+    }
+
+    .boton {
+        font-size: var(--font-boton-mobile);
+    }
+}
+
+/* Tipografía en Mobile FIN */
+
+/* Estilos de Bordes */
+
+.border-general {
+    border-bottom: var(--borde) solid var(--color-general);
+}
+
+.border-basica {
+    border-bottom: var(--borde) solid var(--color-basica);
+}
+
+.border-media {
+    border-bottom: var(--borde) solid var(--color-media);
+}
+
+/* Estilos de Bordes FIN */
+
+/* Estilos de Backgrounds/Colores */
+
+.bg-general {
+    background-color: var(--color-general);
+}
+
+.bg-basica {
+    background-color: var(--color-basica);
+    color: var(--color-negro);
+}
+
+.bg-media {
+    background-color: var(--color-media);
+    color: var(--color-blanco);
+}
+
+.bg-gris {
+    background-color: var(--color-gris);
+}
+
+.text-general {
+    color: var(--color-general);
+}
+
+.text-basica {
+    color: var(--color-basica);
+}
+
+.text-media {
+    color: var(--color-media);
+}
+
+/* Estilos de Backgrounds FIN */
+
+/* Estilos de Botones */
+
+.btn-blanco {
+    background-color: var(--color-blanco);
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+}
+
+.btn-blanco:hover {
+    color: var(--color-negro);
+    border: 2px solid var(--color-negro);
+}
+
+.btn-general {
+    background-color: var(--color-general);
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: var(--color-blanco);
+    font-size: var(--font-boton);
+}
+
+.btn-general:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-general);
+    border: 2px solid var(--color-general);
+}
+
+.btn-basica {
+    background-color: var(--color-basica);
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: var(--color-negro);
+}
+
+.btn-basica:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+    border: 2px solid var(--color-basica);
+}
+
+.btn-media {
+    background-color: var(--color-media);
+    padding: 5px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: var(--color-blanco);
+}
+
+.btn-media:hover {
+    background-color: var(--color-blanco);
+    color: var(--color-media);
+    border: 2px solid var(--color-media);
+}
+
+/* Estilos de Botones FIN */
+
+/* Estilos de Tarjetas */
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card:hover .card-body {
+    background-color: var(--color-general);
+    color: var(--color-blanco);
+    transition: all 0.3s ease-in-out;
+    border-radius: 0 0 7px 7px;
+}
+
+.card:hover .btn-general {
+    background-color: var(--color-blanco);
+    color: var(--color-general);
+}
+
+.card-img-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.sede-tag {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 5px 10px;
+    z-index: 1;
+}
+
+.sede-tag span {
+    padding: 8px 15px;
+    border-radius: 25px;
+}
+
+/* Estilos de Tarjetas FIN*/
+
+/* Inicio Estilos de Footer */
+
+.nav-footer {
+    list-style: none;
+}
+
+.nav-footer a {
+    text-decoration: none;
+    color: var(--color-blanco);
+    opacity: 0.7;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-footer a:hover {
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.container-footer {
+    border-bottom: 3px solid var(--color-blanco);
+}
+
+/* Final Estilos de Footer */
