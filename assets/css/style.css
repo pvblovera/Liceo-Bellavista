@@ -295,10 +295,27 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-
-
 .container-footer {
     border-bottom: 3px solid var(--color-blanco);
 }
 
 /* Final Estilos de Footer */
+
+/* Inicio Estilos de Menú */
+
+.navbar a {
+    font-size: var(--font-boton);
+    color: var(--color-general);
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.navbar a:hover {
+    color: var(--color-general);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Final Estilos de Menú */
+
