@@ -3,6 +3,16 @@
     --borde: 10px;
     --button-size: 13px;
 
+    /* Degradados Horizontales */
+    --degradadox-general: linear-gradient(270deg, rgba(11, 15, 32, 0.20) 0.19%, #374DA0 99.87%);
+    --degradadox-media: linear-gradient(270deg, rgba(11, 15, 32, 0.20) 4.8%, #39A748 98.33%);
+    --degradadox-basica: linear-gradient(270deg, rgba(11, 15, 32, 0.20) 37.35%, rgba(240, 231, 48, 0.70) 98.64%);
+
+    /* Degradados Verticales */
+    --degradadoy-general: linear-gradient(180deg, rgba(11, 15, 32, 0.20) 0.19%, #374DA0 99.87%);
+    --degradadoy-media: linear-gradient(180deg, rgba(11, 15, 32, 0.20) 37.35%, #39A748 98.64%);
+    --degradadoy-basica: linear-gradient(180deg, rgba(11, 15, 32, 0.20) 37.35%, rgba(240, 231, 48, 0.70) 98.64%);
+    
     /* Colores principales */
     --color-basica: #F0E730;
     --color-media: #39A748;

@@ -174,6 +174,10 @@ p {
     color: var(--color-media);
 }
 
+.text-blanco {
+    color: var(--color-blanco);
+}
+
 /* Estilos de Backgrounds FIN */
 
 /* Estilos de Botones */
@@ -349,3 +353,802 @@ footer ul {
 }
 
 /* Final Estilos de Menú */
+
+
+/* Estilos de Degradados */
+
+.degradadox-general {
+    background: var(--degradadox-general);
+}
+
+.degradadox-media {
+    background: var(--degradadox-media);
+}
+
+.degradadox-basica {
+    background: var(--degradadox-basica);
+}
+
+.degradadoy-general {
+    background: var(--degradadoy-general);
+}
+
+.degradadoy-media {
+    background: var(--degradadoy-media);
+}
+
+.degradadoy-basica {
+    background: var(--degradadoy-basica);
+}
+
+/* Estilos de Degradados FIN*/
+
+/* ESTILOS JOSEFA*/
+
+/* Arriba cree también estilos para los colores de las letras (desde la línea 168) */
+
+.banner-img {
+    width: 100%;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--degradadox-general);
+    display: flex;
+  }
+  
+.banner-text {
+    position: absolute;
+    margin: 0;
+    color: white;
+    left: 180px;
+
+  }
+
+.banner-overlay h1 {
+    bottom: 250px;
+    width: 40%;
+  }
+
+.banner-overlay p {
+    font-size: 18px;
+    bottom: 170px;
+    width: 50%;
+}
+
+.inscripciones {
+    border: 2px solid var(--color-general);
+    border-radius: 10px;
+    box-shadow: 10px 10px #dbdbdb;
+}
+
+.inscripciones a {
+    text-decoration: none;
+    border: 2px solid var(--color-general);
+
+}
+
+.inscripciones a:hover {
+    border: 2px solid var(--color-general);
+    background-color: white;
+    color: var(--color-general);
+}
+
+.taller-card i {
+    font-size: 60px;
+}
+
+.taller-card {
+    border: 2px solid var(--color-general);
+    border-radius: 10px;
+}
+
+.info-mision {
+    border-top: 10px solid var(--color-media);
+    border-radius: 0px 0px 17px 17px; 
+}
+
+.info-vision {
+    border-top: 10px solid var(--color-basica);
+    border-radius: 0px 0px 17px 17px; 
+}
+
+.mision-vision-card {
+    border: 2px solid var(--color-general);
+    border-radius: 20px;
+}
+
+.card-directiva img {
+    width: 100%;
+}
+
+@media (max-width: 576px) { 
+
+    .taller-card i {
+        font-size: 45px;
+    }
+
+    
+}
+
+/* ESTILOS JOSEFA */
+
+
+
+
+/* ESTILOS TAMARA*/
+/*FINAL PARA TOODO*/
+
+
+/*PAGINA CONTACTO*/
+.section-hero {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--degradadox-general);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 80px 80px;
+    z-index: 1;
+    color: var(--color-blanco);
+}
+
+.hero-text p {
+    max-width: 725px;
+}
+
+.icon-custom {
+    margin-right: 20px;
+    font-size: 1.8rem;
+    color: var(--color-general);
+}
+
+.fa-location-dot {
+    width: 28.81px;
+}
+
+
+.form-container {
+    background-color: var(--color-general);
+    border-radius: 10px;
+    color: var(--color-blanco);
+}
+
+.info-contacto .info-media,.info-basica {
+    margin: 20px 0 0 0;
+}
+
+.info-contacto .info-basica h6 {
+    color: var(--color-general);
+    margin: 0;
+}
+
+.info-contacto .info-media h6 {
+    color: var(--color-general);
+    margin: 0;
+}
+
+.textarea-responsivo {
+    width: 100%;
+    max-width: 600px;
+    height: 150px;
+    font-size: 16px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+@media (max-width: 992px) {
+    .section-hero {
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+    }
+
+    .info-basica,
+    .info-media {
+        columns: 1;
+    }
+
+    .hero-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0 0 100px 80px;
+        z-index: 1;
+        color: var(--color-blanco);
+    }
+
+    .hero-text p {
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .info-contacto {
+        justify-items: center;
+        justify-content: center;
+
+        margin-bottom: 25px;
+    }
+
+    .info-media,.info-basica {
+        margin: 40px 0;
+    }
+
+    .detalles-sedes {
+        margin: 20px 0 0 30px;
+    }
+
+    .info-sedes {
+        margin-bottom: 50px;
+    }
+
+    .form-container{
+        margin-bottom: 10px;
+    } 
+
+    .hero-text {
+        bottom: 0;
+        left: 0;
+        margin: 0 10px 50px 10px;
+        padding: 0 10px 0 0;
+    }
+
+}
+
+/*FINAL PAGINA CONTACTO*/
+
+
+/*PAGINA GALERIA*/
+.lado-izquierdo,
+.lado-derecho {
+    padding: 10px;
+}
+
+.lado-izquierdo img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.lado-derecho {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.lado-derecho img {
+    max-width: 100%;
+    height: 100%;
+}
+
+.imagen-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.imagen-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--degradadox-general);
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 8%;
+    left: 5%;
+    z-index: 2;
+    color: var(--color-blanco);
+    text-align: left;
+}
+
+.container-albumes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.container-albumes img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.container-albumes h5 {
+    margin-top: 10px;
+}
+
+@media (max-width: 576px) {
+    .container-albumes {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .seccion-dividida {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lado-derecho {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+}
+
+/*FINAL PAGINA GALERIA*/
+
+
+/*PAGINA ALBUMES*/
+.cont-album {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.cont-album img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.container-album-titulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.album-link img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.album-link:hover img {
+    transform: scale(1.1); 
+}
+
+
+@media (max-width: 992px) {
+    .cont-album {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .cont-album {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .container-album-titulo {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+}
+
+/*FINAL PAGINA ALBUMES*/
+/* FINAL STYLO TAMARA/*
+
+
+/* ESTILOS DAVID  */
+
+/* Estilos de Banner Inicio */
+
+.custom-caption {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 67px;
+}
+
+.custom-caption h1 {
+    padding-right: 700px;
+}
+
+.custom-caption p{
+    padding-right: 400px;
+}
+
+.carousel-background {
+    background-image: var(--degradadox-general), url('/assets/images/BANNER.png');
+    background-size: cover; /* Asegura que el fondo cubra todo el contenedor */
+    background-position: center;
+    height: 643px; /* Ajusta la altura según lo necesario */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos de Banner Inicio FIN */
+
+
+.section-somos h2{
+    color: var(--color-general);
+}
+
+ /* Estilos Sedes */
+
+.section-sedes h2{
+    color: var(--color-general);
+}
+
+.overlay-card {
+    position: relative;
+    overflow: hidden; /* Para asegurar que el contenido no se salga del borde de la tarjeta */
+}
+
+.degradado-basica {
+    /* Añade el degradado sobre la imagen usando linear-gradient */
+    background-image: linear-gradient(180deg, rgba(11, 15, 32, 0.20) -21.18%, #F0E730 97.83%), url('/assets/images/sedebasica.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 296px;
+}
+
+.card-body.overlay-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+    transition: background 0.3s ease;
+}
+
+.overlay-card:hover .overlay-content {
+    background: transparent; /* Aumenta la opacidad en hover */
+}
+
+.degradado-media {
+    /* Añade el degradado sobre la imagen usando linear-gradient */
+    background-image: linear-gradient(180deg, rgba(11, 15, 32, 0.20) -30.97%, #39A748 97.81%), url('/assets/images/sedemedia.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 296px;
+}
+
+.overlay-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.overlay-card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño en un 5% */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); /* Sombra suave para el efecto de levitación */
+}
+
+/* Ajuste para tabletas y pantallas más pequeñas */
+@media (max-width: 1521px) {
+    .custom-caption h1 {
+        padding-right: 20px; /* Ajusta según sea necesario */
+    }
+
+    .custom-caption p {
+        padding-right: 20px; /* Ajusta según sea necesario */
+    }
+
+    .custom-caption {
+        text-align: left; /* Alinear el texto a la izquierda */
+        margin-bottom: 5px;
+    }
+
+    .degradado-basica {
+margin-bottom: 30px;
+    }
+}
+
+/* Ajuste para móviles */
+@media (max-width: 575px) {
+    .custom-caption h1 {
+        padding-right: 10px; /* Ajusta según sea necesario */
+    }
+
+    .custom-caption p {
+        padding-right: 10px; /* Ajusta según sea necesario */
+    }
+
+    .custom-caption {
+        text-align: left; /* Alinear el texto a la izquierda */
+        margin-bottom: 5px;
+    }
+
+    .degradado-basica {
+        margin-bottom: 30px;
+            }
+}
+
+ /* Estilos Sedes FIN */
+
+ /* Estilos Noticias */
+
+.section-noticias h2{
+    color: var(--color-general);
+}
+
+ /* Estilos Noticias FIN*/
+
+.quote-text {
+    color: var(--color-negro); /* Color del texto */
+    font-weight: 400;
+}
+
+.quote-section i {
+    color: var(--color-general); /* Color de los íconos */
+    font-size: 70px;
+}
+
+
+
+/* Estilos de Banner MEDIA Inicio */
+
+.custom-caption2 {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 67px;
+}
+
+.custom-caption2 h1 {
+    padding-right: 700px;
+}
+
+.custom-caption2 p{
+    padding-right: 400px;
+}
+
+.carousel-background2 {
+    background-image: var(--degradadox-media), url('/assets/images/BANNER.png');
+    background-size: cover; /* Asegura que el fondo cubra todo el contenedor */
+    background-position: center;
+    height: 643px; /* Ajusta la altura según lo necesario */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos de Banner MEDIA FIN */
+
+.section-somosmedia h2{
+    color: var(--color-media);
+}
+
+.section-galeria h2{
+    color: var(--color-media);
+}
+
+.degradado-media2 {
+    background-image: var(--degradadoy-media), url('/assets/images/sedemedia.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 296px;
+}
+
+.galeria{
+    height: 100%;
+}
+
+
+.section-noticiasm h2{
+    color: var(--color-media);
+}
+
+
+.accordion-button {
+    font-weight: bold;
+    background-color: var(--color-media); /* Fondo de la asignatura */
+}
+
+.accordion-button.collapsed {
+    color: var(--color-blanco); /* Cambia el color cuando está colapsado */
+}
+
+.accordion-body h6 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    outline: none; /* Elimina el borde de enfoque */
+    box-shadow: none; /* Elimina el efecto de sombra en enfoque */
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--color-blanco);
+    color: var(--color-media);
+}
+
+/* Icono cuando el acordeón está expandido */
+.accordion-button::after {
+    font-family: "Font Awesome 6 Free"; 
+    content: "\f078"; /* Icono de flecha hacia arriba */
+    font-weight: 900; /* Estilo sólido */
+    color: var(--color-media); /* Color del icono */
+    transition: transform 0.3s ease; /* Suaviza la rotación */
+    background-image: none;
+}
+
+/* Icono cuando el acordeón está colapsado */
+.accordion-button.collapsed::after {
+    font-family: "Font Awesome 6 Free"; 
+    content: "\f078"; /* Icono de flecha hacia abajo */
+    font-weight: 900;
+    color: var(--color-blanco);
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+}
+
+/* Estilos de Banner BASICA Inicio */
+
+.custom-caption3 {
+    text-align: left; /* Alinear el texto a la izquierda */
+    margin-bottom: 67px;
+}
+
+.custom-caption3 h1 {
+    padding-right: 700px;
+}
+
+.custom-caption3 p {
+    padding-right: 400px;
+}
+
+.carousel-background3 {
+    background-image: var(--degradadox-basica), url('/assets/images/BANNER.png');
+    background-size: cover; /* Asegura que el fondo cubra todo el contenedor */
+    background-position: center;
+    height: 643px; /* Ajusta la altura según lo necesario */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos de Banner BASICA FIN */
+
+.section-somosbasica h2 {
+    color: var(--color-negro);
+}
+
+.section-galeriabasica h2 {
+    color: var(--color-negro);
+}
+
+.degradado-basica2 {
+    background-image: var(--degradadoy-basica), url('/assets/images/sedemedia.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 296px;
+}
+
+.galeria {
+    height: 100%;
+}
+
+.section-noticiasb h2 {
+    color: var(--color-negro);
+}
+
+.basica.accordion-button {
+    font-weight: bold;
+    background-color: var(--color-basica); /* Fondo de la asignatura */
+}
+
+.basica.accordion-button.collapsed{
+    color: var(--color-negro); /* Cambia el color cuando está colapsado */
+}
+
+.accordion-body h6 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    outline: none; /* Elimina el borde de enfoque */
+    box-shadow: none; /* Elimina el efecto de sombra en enfoque */
+}
+
+.basica.accordion-button:not(.collapsed) {
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+/* Icono cuando el acordeón está expandido */
+.basica.accordion-button::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f078"; /* Icono de flecha hacia arriba */
+    font-weight: 900; /* Estilo sólido */
+    color: var(--color-negro); /* Color del icono */
+    transition: transform 0.3s ease; /* Suaviza la rotación */
+    background-image: none;
+}
+
+/* Icono cuando el acordeón está colapsado */
+.basica.accordion-button.collapsed::after {
+    font-family: "Font Awesome 6 Free";
+    content: "\f078"; /* Icono de flecha hacia abajo */
+    font-weight: 900;
+    color: var(--color-negro);
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+/* Ajuste para tabletas y pantallas más pequeñas */
+@media (max-width: 1521px) {
+    .custom-caption2 h1 {
+        padding-right: 20px; /* Ajusta según sea necesario */
+    }
+
+    .custom-caption2 p {
+        padding-right: 20px; /* Ajusta según sea necesario */
+    }
+
+    .custom-caption2 {
+        text-align: left; /* Alinear el texto a la izquierda */
+        margin-bottom: 5px;
+    }
+
+    .degradado-basica {
+margin-bottom: 30px;
+    }
+
+    .galeria{
+        height: 608px;
+        margin-bottom: 20px;
+       }
+
+}
+
+/* ESTILOS DAVID  */
